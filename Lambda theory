@@ -22,6 +22,9 @@ predicate - test(T t)
 prototype - interface Predicate<T>{
             public abstract boolean test(T t);
             }
-
-
+            
+Function - apply(T t, R r)
+prototype - interface Function<T,R>{
+            public abstract R apply(T t);
+            }
 
