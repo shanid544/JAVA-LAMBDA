@@ -1,0 +1,27 @@
+https://www.geeksforgeeks.org/lambda-expressions-java-8/
+https://youtu.be/JLjfKJMALKY
+
+this theory is from youtube playlist
+
+why lambda - functional programming, code optimization
+why it is anonymous - do no need to mention name, retunr type, parameter type
+syntax - (a,b)->System.out.println(a+b); // a->a*a;  
+correct synatax - 
+                  n->return n*n;  - if we use return we need to use oaranthesis - false
+                  n->{return n*n;}; - true
+                  n->{return n*n}; - false
+                  n->{n*n;}; - false
+                  n->n*n; - true
+fuctional I/F - contains single abstract method(SAM), but can have multiplr default mathod and static method
+examples of functional I/F - runnable(run()), comparable(compareTo()), callable(call()), actionlistener(actionPerformed())
+funtional interface tightly bounded with lambda expression
+@functional interface annotation
+
+pre-defeined fuctional interface - predicate, function, consumer, supplier - under package called java.util.function
+predicate - test(T t)
+prototype - interface Predicate<T>{
+            public abstract boolean test(T t);
+            }
+
+
+
