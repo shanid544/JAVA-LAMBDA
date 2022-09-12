@@ -29,3 +29,9 @@ prototype - interface Function<T,R>{
             public abstract R apply(T t);
             }
 Function Chaining - andThan, compose
+
+Predicate<T>
+Function<T,R>
+Consumer<T>
+Supplier<R>
+
